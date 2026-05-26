@@ -9,3 +9,8 @@
     "puppeteer": "^24.0.0"
   }
 }
+
+"scripts": {
+  "postinstall": "npx puppeteer browsers install chrome",
+  "start": "node server.js"
+}

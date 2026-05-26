@@ -2,15 +2,11 @@
   "name": "necrologi-renderer",
   "type": "module",
   "scripts": {
+    "postinstall": "npx puppeteer browsers install chrome",
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
     "puppeteer": "^24.0.0"
   }
-}
-
-"scripts": {
-  "postinstall": "npx puppeteer browsers install chrome",
-  "start": "node server.js"
 }
